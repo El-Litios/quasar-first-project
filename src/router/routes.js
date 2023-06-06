@@ -6,12 +6,12 @@ const routes = [
       { path: "", component: () => import("pages/IndexPage.vue") },
       {
         path: "typography",
-        name: "TypographyPage",
+        name: "typography",
         component: () => import("src/pages/TypographyPage.vue"),
       },
       {
         path: "flex",
-        name: "FlexPage",
+        name: "flex",
         component: () => import("src/pages/FlexPage.vue"),
       },
     ],
